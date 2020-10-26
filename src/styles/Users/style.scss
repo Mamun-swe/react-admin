@@ -1,0 +1,71 @@
+@import "../../App.scss";
+
+.index {
+    .card {
+        .card-body {
+            h5 {
+                margin-top: 5px;
+                margin-bottom: 0;
+                font-weight: 700;
+                text-transform: capitalize;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .btn {
+                color: #fff;
+                padding: 4px 7px;
+                background: $secondary-color;
+            }
+        }
+    }
+
+    .table {
+        thead {
+            p {
+                margin-bottom: 0;
+                font-weight: 500;
+                font-size: 14px;
+                text-transform: capitalize;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+        tbody {
+            p {
+                margin-bottom: 0;
+                font-weight: 400;
+                font-size: 13px;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+}
+
+.create {
+    .card {
+        .card-header {
+            h5 {
+                margin-bottom: 0;
+                font-weight: 700;
+                text-transform: capitalize;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+
+        .card-body {
+            .form-control {
+                font-size: 14px;
+                font-weight: 400;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            .btn {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 700;
+                font-family: 'Roboto', sans-serif;
+                background: $secondary-color;
+            }
+        }
+    }
+}
